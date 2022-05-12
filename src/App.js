@@ -6,31 +6,31 @@ function App() {
     {
       title: 'Pop Thieves (Makie It Feel Good)',
       artist: 'Childish Gambino',
-      img: './components/images/1cg.png',
-      src: './components/music/01 Pop Thieves (Make It Feel Good) [feat. Jaden Smith]',
+      img_src: './images/1cg.jpg',
+      src: './components/music/01 Pop Thieves (Make It Feel Good) [feat. Jaden Smith].mp3',
     },
     {
       title: "Ain't It Fun",
       artist: 'Paramore',
-      img_src: './components/music/images/2pp.png',
+      img_src: './components/images/1cg.jpg',
       src: './components/music/02 - Aint It Fun.mp3',
     },
     {
       title: 'Modal Soul',
       artist: 'Nujabes',
-      img_src: './components/music/images/3nj.png',
+      img_src: './components/images/1cg.jpg',
       src: './components/music/03 Modal Soul (feat. Uyama Hiroto).mp3',
     },
     {
       title: 'Them Changes',
       artist: 'Thundercat',
-      img_src: './components/music/images/thc.png',
+      img_src: './components/images/1cg.jpg',
       src: './components/music/04 Thundercat - Them Changes.mp3',
     },
     {
       title: 'Sunflower',
       artist: 'Vampire Weekend',
-      img_src: './components/music/images/5vw.png',
+      img_src: './components/images/1cg.jpg',
       src: './components/music/05 Sunflower (feat. Steve Lacy).mp3',
     },
   ]);

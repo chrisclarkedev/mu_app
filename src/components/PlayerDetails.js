@@ -4,7 +4,7 @@ function PlayerDetails(props) {
   return (
     <div className="c-player--details">
       <div className="details-img">
-        <img src={props.song.artist} alt="" />
+        <img src={props.song.img_src} alt="" />
       </div>
       <h3 className="details-title">{props.song.title}</h3>
       <h4 className="detail-artist">{props.song.artist}</h4>
