@@ -70,3 +70,54 @@ body {
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8),
     -6px -6px 12px rgba(255, 255, 255, 0.5);
 }
+
+.c-player--details .details-title {
+  color: #eee;
+  font-size: 20px;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8),
+    -2px -2px 4px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.c-player--details .details-artist {
+  color: rgb(146, 142, 142);
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
+    -2px -2px 4px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.c-player--controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.c-player--controls .play-btn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8),
+    -4px -4px 10px rgba(255, 255, 255, 0.4),
+    inset -4px -4px 10px rgba(0, 0, 0, 0.4),
+    inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+  border: none;
+  outline: none;
+  background-color: goldenrod;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.c-player--controls .skip-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
