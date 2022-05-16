@@ -4,11 +4,11 @@ import PlayerControls from './PlayerControls';
 
 function Player(props) {
   const audioElement = useRef(null);
-  const [playing, setPlaying] = useState(false);
+  const [isPlaying, setPlaying] = useState(false);
   // Dont want songs to play as soon as app starts
 
   useEffect(() => {
-    if (playing) {
+    if (isPlaying) {
       audioElement.current.play();
       // Anytime something changes it will check if audio is playing and will continue playing
     } else {
@@ -41,17 +41,25 @@ function Player(props) {
         // Will retrieve previous song index and set it to previous song
         return temp;
       });
+    }
   };
 
   return (
     <div className="c-player">
-      <audio src={props.songs[props.currentSongIndex].src} ref={audioElement}></audio>
+      <audio
+        src={props.songs[props.currentSongIndex].src}
+        ref={audioElement}
+      ></audio>
       <h4>Now Playing</h4>
-      <PlayerDetails song={props.song} />
-      <PlayerControls />
+      <PlayerDetails song={props.songs[props.currentSongIndex]} />
+      <PlayerControls
+        isPlaying={isPlaying}
+        setplaying={setPlaying}
+        skipSong={skipSong}
+      />
       <p>
-        <strong>Next Song:</strong> {props.nextSong.title} by{' '}
-        {props.nextSong.artist}
+        <strong>Next Song:</strong> {props.songs[props.nextSongIndex].title} by{' '}
+        {props.songs[props.nextSongIndex].artist}
       </p>
     </div>
   );
