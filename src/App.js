@@ -7,7 +7,7 @@ function App() {
     {
       title: 'Pop Thieves (Makie It Feel Good)',
       artist: 'Childish Gambino',
-      img_src: './images/1cg.jpg',
+      img_src: './images/1cg.png',
       src: './music/01 Pop Thieves (Make It Feel Good) [feat. Jaden Smith].mp3',
     },
     {
