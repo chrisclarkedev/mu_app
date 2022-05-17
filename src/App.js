@@ -5,7 +5,7 @@ import Player from './components/Player';
 function App() {
   const [songs] = useState([
     {
-      title: 'Pop Thieves (Makie It Feel Good)',
+      title: 'Pop Thieves',
       artist: 'Childish Gambino',
       img_src: './images/1cg.png',
       src: './music/01 Pop Thieves (Make It Feel Good) [feat. Jaden Smith].mp3',
