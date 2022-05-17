@@ -1,4 +1,4 @@
-import { useStat, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 //Call function when things change (lifestyle method)
 import Player from './components/Player';
 
@@ -8,31 +8,31 @@ function App() {
       title: 'Pop Thieves (Makie It Feel Good)',
       artist: 'Childish Gambino',
       img_src: './images/1cg.jpg',
-      src: './components/music/01 Pop Thieves (Make It Feel Good) [feat. Jaden Smith].mp3',
+      src: './music/01 Pop Thieves (Make It Feel Good) [feat. Jaden Smith].mp3',
     },
     {
       title: "Ain't It Fun",
       artist: 'Paramore',
-      img_src: './components/images/1cg.jpg',
-      src: './components/music/02 - Aint It Fun.mp3',
+      img_src: './images/2pp.png',
+      src: './music/02 - Aint It Fun.mp3',
     },
     {
       title: 'Modal Soul',
       artist: 'Nujabes',
-      img_src: './components/images/1cg.jpg',
-      src: './components/music/03 Modal Soul (feat. Uyama Hiroto).mp3',
+      img_src: './images/3nj.png',
+      src: './music/03 Modal Soul (feat. Uyama Hiroto).mp3',
     },
     {
       title: 'Them Changes',
       artist: 'Thundercat',
-      img_src: './components/images/1cg.jpg',
-      src: './components/music/04 Thundercat - Them Changes.mp3',
+      img_src: './images/4thc.png',
+      src: './music/04 Thundercat - Them Changes.mp3',
     },
     {
       title: 'Sunflower',
       artist: 'Vampire Weekend',
-      img_src: './components/images/1cg.jpg',
-      src: './components/music/05 Sunflower (feat. Steve Lacy).mp3',
+      img_src: './images/5vw.png',
+      src: './music/05 Sunflower (feat. Steve Lacy).mp3',
     },
   ]);
 

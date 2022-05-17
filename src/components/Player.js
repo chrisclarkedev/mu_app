@@ -4,7 +4,7 @@ import PlayerControls from './PlayerControls';
 
 function Player(props) {
   const audioElement = useRef(null);
-  const [isPlaying, setPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
   // Dont want songs to play as soon as app starts
 
   useEffect(() => {
@@ -54,7 +54,7 @@ function Player(props) {
       <PlayerDetails song={props.songs[props.currentSongIndex]} />
       <PlayerControls
         isPlaying={isPlaying}
-        setplaying={setPlaying}
+        setIsPlaying={setIsPlaying}
         skipSong={skipSong}
       />
       <p>
